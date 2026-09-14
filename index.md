@@ -66,7 +66,7 @@ The laws are about closing those gaps before they compound.
 
 ## Who Should Read This
 
-:::{grid} 2
+::::{grid} 2
 
 :::{grid-item-card} 🎖️ The newly-appointed
 You have the title and you are quietly aware that the job is different from what you prepared for. This book compresses the first three years.
@@ -84,7 +84,7 @@ You were promoted because you were the best at the work. That's the most common 
 You lead where mistakes carry real consequence — safety, security, health, infrastructure, public trust. Comfortable advice doesn't survive your environment.
 :::
 
-:::
+::::
 
 ---
 
@@ -92,7 +92,7 @@ You lead where mistakes carry real consequence — safety, security, health, inf
 
 The book is built in five parts. Each answers a different question about what you actually control.
 
-:::{grid} 1
+::::{grid} 1
 
 :::{grid-item-card} I — Command of Self
 **Laws 1–4 · The interior of the office**
@@ -124,7 +124,7 @@ The gap between strategy and result is where most leadership actually fails. Out
 The three circuits of organizational power, the passage points that concentrate influence regardless of title, the expiration date on your own expertise, and the question that outranks all the others: what survives your departure?
 :::
 
-:::
+::::
 
 ---
 
@@ -160,7 +160,7 @@ She has spent that career watching capable leaders fail for reasons that had not
 
 ## 📖 The Twenty Laws
 
-:::{grid} 2
+::::{grid} 2
 
 :::{grid-item-card} Law 1: The Buck Has No Backstop
 :link: ./chapters/ch01-buck-has-no-backstop.md
@@ -262,9 +262,7 @@ The relevance clock runs fastest at the top, where nobody will tell you.
 If it degrades when you leave, you were holding it up, not leading it.
 :::
 
-<!-- GRID_PLACEHOLDER -->
-
-:::
+::::
 
 ---
 
