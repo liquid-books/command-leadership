@@ -1,0 +1,92 @@
+# MyST project configuration
+version: 1
+project:
+  id: command-leadership
+  title: "COMMAND"
+  subtitle: "The 20 Laws of Leadership When Failure Is Not an Option"
+  description: "Twenty laws of executive command, drawn from high-stakes environments where leadership failure carries real consequence. For leaders who already hold the chair — and now have to hold it."
+  authors:
+    - name: Candace Lyons
+  keywords:
+    - leadership
+    - executive
+    - command
+    - organizational power
+    - strategy
+    - decision-making
+  license:
+    content: CC-BY-4.0
+  copyright: "2026 Candace Lyons"
+  github: https://github.com/liquid-books/command-leadership
+  numbering:
+    heading_1: false
+    heading_2: false
+    figure: true
+    table: true
+  exports:
+    - format: pdf
+  toc:
+    - file: index.md
+
+    - title: "Part I — Command of Self"
+      children:
+        - title: "Law 1: The Buck Has No Backstop"
+          file: chapters/ch01-buck-has-no-backstop.md
+        - title: "Law 2: Liked or Respected — Pick Before They Pick for You"
+          file: chapters/ch02-liked-or-respected.md
+        - title: "Law 3: Your Composure Is a Broadcast Signal"
+          file: chapters/ch03-composure-broadcast.md
+        - title: "Law 4: Judgment Is a Depletable Asset"
+          file: chapters/ch04-judgment-depletable.md
+
+    - title: "Part II — Command of Time and Attention"
+      children:
+        - title: "Law 5: Your Calendar Is Your Real Strategy"
+          file: chapters/ch05-calendar-is-strategy.md
+        - title: "Law 6: Access Is the Currency You Print"
+          file: chapters/ch06-access-currency.md
+        - title: "Law 7: Leadership Is Subtraction"
+          file: chapters/ch07-leadership-is-subtraction.md
+        - title: "Law 8: Decide at Seventy Percent"
+          file: chapters/ch08-decide-at-seventy.md
+
+    - title: "Part III — Command of People"
+      children:
+        - title: "Law 9: You Don't Manage People, You Manage Incentives"
+          file: chapters/ch09-manage-incentives.md
+        - title: "Law 10: Consensus Is Where Accountability Goes to Die"
+          file: chapters/ch10-consensus-accountability.md
+        - title: "Law 11: Candor Is an Operating System"
+          file: chapters/ch11-candor-operating-system.md
+        - title: "Law 12: Hire Above Yourself or Cap the Organization"
+          file: chapters/ch12-hire-above-yourself.md
+
+    - title: "Part IV — Command of Execution"
+      children:
+        - title: "Law 13: Manage Outcomes, Not Activity"
+          file: chapters/ch13-outcomes-not-activity.md
+        - title: "Law 14: Announcement Culture Kills Companies"
+          file: chapters/ch14-announcement-culture.md
+        - title: "Law 15: Perfectionism Is Institutional Procrastination"
+          file: chapters/ch15-institutional-perfectionism.md
+        - title: "Law 16: Excellence Is Boring — Build the Cadence"
+          file: chapters/ch16-excellence-is-boring.md
+
+    - title: "Part V — Command of Power"
+      children:
+        - title: "Law 17: Learn the Three Circuits or Fight Forever"
+          file: chapters/ch17-three-circuits.md
+        - title: "Law 18: Control the Passage Points"
+          file: chapters/ch18-passage-points.md
+        - title: "Law 19: Expertise Expires — Especially Yours"
+          file: chapters/ch19-expertise-expires.md
+        - title: "Law 20: Build What Outlasts Your Tenure"
+          file: chapters/ch20-outlast-your-tenure.md
+
+site:
+  template: book-theme
+  title: "COMMAND"
+  options:
+    logo_text: "COMMAND"
+    logo_url: "/command-leadership/"
+    primary_sidebar_footer: primary-sidebar-footer.md
